@@ -3,7 +3,7 @@ package loginInfo;
 import java.util.Scanner;
 
 public class Login {
-	String UserId;
+	String userId;
 	String password;
 	int chancesToLogin;
 
@@ -16,17 +16,17 @@ public class Login {
 		{
 
 			System.out.println("Enter your UserId:");
-			UserId = sc.next();
+			userId = sc.next();
 			System.out.println("Enter The Password:");
 			password = sc.next();
 
-			System.out.println("User id is:" + UserId);
-			System.out.println("Password is:" + password);
+			//System.out.println("User id is:" + userId);
+			//System.out.println("Password is:" + password);
 
-			if (UserId.equals("pivotAdmin") && password.equals("Admin123")) {
+			if (userId.equals("pivotAdmin") && password.equals("Admin123")) {
 
 				System.out.println("You are logged in to the application");
-				break;
+				//break;
 
 			} else {
 				System.out.println("Incorrect UserId and Password.Try Again");

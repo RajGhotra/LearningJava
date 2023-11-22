@@ -6,6 +6,9 @@ public class MainLogin {
 		// TODO Auto-generated method stub
 		Login login = new Login();
 		login.loginInformation();
+		login.userId="pivotAdmin";
+		login.password="Admin123";
+		
 	
 	
 
